@@ -188,7 +188,17 @@ h2{
 .submitbtn:hover{
     background-color:#128ea4;
 }
-
+.infowindow2{
+  display:grid;
+  position: absolute;
+  background-color: #FBBE85;
+  top:20%;
+  text-align:center;
+  left:80%;
+  border-radius:5px;
+  width:10%;
+  height:40%;
+}
 .infowindow{
   display:grid;
   position: absolute;
@@ -392,6 +402,13 @@ th >p {
             top:-10%;
             color:white;
             text-align:center;
+           }
+           .infowindow2{
+            top:120%;
+            width:90%;
+            left:10%;
+            height:30%;
+
            }
     }
         
