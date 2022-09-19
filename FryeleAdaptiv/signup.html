@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oskar">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/5605743a65.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./logos/favicon.png" title="horse icons" type="image/x-icon">
+    <title>Bli medlem</title>
+</head>
+
+<body>
+    <img src=".logos/fryelelogo.png" id="logo"alt="">
+    <div class="navwrapper">
+
+        <div class="home">
+            <p onclick="homePage()">Hem</p>
+        </div>
+        <div class="community">
+            <p onclick="boardPage()">Förening</p>
+            <div class="drop-down-community">
+                <p onclick="signupPage()">Bli medlem</p>
+
+
+            </div>
+        </div>
+        <div class="school">
+            <p onclick="informationPage()">Ridskola</p>
+            <div class="drop-down-school">
+                <p onclick="horsesPage()">Hästarna</p>
+                <p onclick="personalPage()"->Personal</p>
+            </div>
+
+        </div>
+        <div class="property">
+            <p onclick="propertyPage()">Anläggning</p>
+        </div>
+        <div class="contact">
+            <p onclick="contactPage()">Kontakt</p>
+        </div>
+
+    </div>
+    <div class="signupWrapper">
+        
+            <div class="form">
+            <h2> Bli medlem hos oss!</h2>
+            <h4>Namn</h4>
+            <input type="box" class="inputboxes" id="name"> 
+            <h4>Efternamn</h4>
+            <input type="box" class="inputboxes" id="lastname">
+            <h4>Email</h4>
+            <input type="box" class="inputboxes" id="email">
+            <h4>Telefonnummer</h4>
+            <input type="box" class="inputboxes" id="phone">
+            <br>
+            <button class="submitbtn" onclick="sendEmail();">Bli medlem</button>
+            
+            </div>
+            <div class="infowindow">
+                <h3>Kostnad medlemskap</h3>
+
+                <div class="headerprice">Basmedlem</div>
+                <div class="price">50kr/mån</div>
+                <div class="headerprice">Silvermedlem</div>
+                <div class="price">150kr/mån</div>
+                <div class="headerprice">Guldmedlem</div>
+                <div class="price">250kr/mån</div>
+             </div>
+    </div>
+
+</body>
+
+</html>
